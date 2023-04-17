@@ -6,7 +6,7 @@
         Width="600" 
         ResizeMode="NoResize">
     <Window.Resources>
-        <!-- Placeholder text style for TextBox -->
+        <!-- Text style for TextBox -->
         <Style TargetType="{x:Type TextBox}" x:Key="PlaceholderTextBoxStyle">
             <Setter Property="Foreground" Value="Black"/>
             <Setter Property="Template">

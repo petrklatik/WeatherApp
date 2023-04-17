@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WeatherApp.Model
 {
     public class WeatherDataModel
     {
         public string PlaceName { get; set; }
-        public CurrentWeather currentWeather { get; set; }
-        public List<TodaysWeather> todaysWeather { get; set; } 
-        public List<DailyWeather> dailyWeather { get; set; }
+        public CurrentWeather CurrentWeather { get; set; }
+        public List<TodaysWeather> TodaysWeather { get; set; }
+        public List<DailyWeather> DailyWeather { get; set; }
     }
 
     public class CurrentWeather
