@@ -26,6 +26,4 @@ To run the WeatherApp locally, follow these steps:
 5. The current weather information, hourly weather data until midnight, and the five-day forecast for the provided location will be displayed.
 
 ## TODO
-- Implement the Model component to handle API requests and parse the JSON response.
-- Develop the ViewModel component to handle the logic for updating the UI with weather data.
 - Implement unit tests for the Model and ViewModel components to ensure accurate and reliable weather data retrieval.

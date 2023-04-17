@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WeatherApp.ViewModel;
 
 namespace WeatherApp
 {
@@ -20,6 +21,8 @@ namespace WeatherApp
         public MainWindow()
         {
             InitializeComponent();
+            // Set the DataContext to an instance of MainViewModel
+            DataContext = new WeatherViewModel();
         }
     }
 }
